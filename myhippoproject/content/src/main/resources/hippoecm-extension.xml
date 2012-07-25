@@ -3,7 +3,6 @@
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippo:initializefolder</sv:value>
   </sv:property>
-
   <!-- Document types -->
   <sv:node sv:name="myhippoproject">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -145,7 +144,6 @@
       <sv:value>/hst:hst</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Website -->
   <sv:node sv:name="myhippoproject-sitemap">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -427,7 +425,6 @@
       <sv:value>/hst:hst/hst:configurations/myhippoproject</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Subsite components -->
   <sv:node sv:name="myhippoproject-subsite-common-configuration-components">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -485,8 +482,6 @@
       <sv:value>/hst:hst/hst:configurations/myhippoproject-subsite-common/hst:components</sv:value>
     </sv:property>
   </sv:node>
-  
-  
   <!-- Subsite templates -->
   <sv:node sv:name="myhippoproject-subsite-common-configuration-templates">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -502,7 +497,6 @@
       <sv:value>/hst:hst/hst:configurations/myhippoproject-subsite-common</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Content -->
   <sv:node sv:name="myhippoproject-documents">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -546,7 +540,6 @@
       <sv:value>/content/documents/myhippoproject</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Gallery -->
   <sv:node sv:name="myhippoproject-gallery">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -562,8 +555,7 @@
       <sv:value>/content/gallery</sv:value>
     </sv:property>
   </sv:node>
-
-   <!-- Blueprints -->
+  <!-- Blueprints -->
   <sv:node sv:name="myhippoproject-hst-blueprints-myhippoproject-subsite">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -606,7 +598,6 @@
       <sv:value>/hst:hst/hst:blueprints/myhippoproject-subsite/hst:configuration</sv:value>
     </sv:property>
   </sv:node>
-  
   <sv:node sv:name="myhippoproject-hst-blueprints-myhippoproject-subsite-sitemenus">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -621,7 +612,6 @@
       <sv:value>/hst:hst/hst:blueprints/myhippoproject-subsite/hst:configuration</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Subsites bootstrap content -->
   <sv:node sv:name="myhippoproject-hippo-queries-new-subsite-template-myhippoproject-subsite">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -637,7 +627,6 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates/new-subsite/hippostd:templates</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- CMS configuration - xinha rich text editor -->
   <sv:node sv:name="cmsconfig-xinha">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -653,7 +642,6 @@
       <sv:value>/hippo:namespaces/hippostd/html/editor:templates/_default_</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Formdata node and a security domain for it -->
   <sv:node sv:name="myhippoproject-formdata-container">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -683,7 +671,6 @@
       <sv:value>13000.1</sv:value>
     </sv:property>
   </sv:node>
-
   <!-- Security and default available users -->
   <sv:node sv:name="myhippoproject-user-editor">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -797,7 +784,6 @@
       <sv:value>13100.6</sv:value>
     </sv:property>
   </sv:node>
-  
   <sv:node sv:name="myhippoproject-group-writable-sitegroup">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -812,7 +798,6 @@
       <sv:value>13100.6</sv:value>
     </sv:property>
   </sv:node>
-  
   <sv:node sv:name="myhippoproject-sitegroup-read-everywhere">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -827,5 +812,18 @@
       <sv:value>13100.7</sv:value>
     </sv:property>
   </sv:node>
-  
+  <sv:node sv:name="myhippoproject-content-documents-myhippoproject-cool-documents">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>10401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/myhippoproject/cool-documents.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/myhippoproject</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

@@ -16,6 +16,12 @@
   <dependencies>
 
     <dependency>
+      <groupId>org.onehippo.forge</groupId>
+      <artifactId>myplugin-hst</artifactId>
+      <version>1.00.00-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
       <scope>runtime</scope>

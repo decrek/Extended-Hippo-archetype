@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-  version="2.5"
-  id="site">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         id="site">
 
   <display-name>My Hippo Project site</display-name>
   <description>My Hippo Project site</description>
@@ -56,7 +56,9 @@
   -->
   <context-param>
     <param-name>hst-beans-annotated-classes</param-name>
-    <param-value>classpath*:org/example/beans/**/*.class</param-value>
+    <param-value>classpath*:org/example/beans/**/*.class,
+      classpath*:org/onehippo/forge/myplugin/**/*.class
+    </param-value>
   </context-param>
 
   <filter>

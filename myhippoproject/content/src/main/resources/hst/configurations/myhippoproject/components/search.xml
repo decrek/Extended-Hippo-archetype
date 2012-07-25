@@ -6,6 +6,12 @@
   <sv:property sv:name="hst:componentclassname" sv:type="String">
     <sv:value>org.example.components.Search</sv:value>
   </sv:property>
+  <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+    <sv:value>docType</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+    <sv:value>myplugin:basedocument</sv:value>
+  </sv:property>
   <sv:property sv:name="hst:template" sv:type="String">
     <sv:value>search.main.content</sv:value>
   </sv:property>

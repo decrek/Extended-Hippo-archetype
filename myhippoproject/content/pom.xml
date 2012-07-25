@@ -36,4 +36,12 @@
     </plugins>
   </build>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.onehippo.forge</groupId>
+      <artifactId>myplugin-repository</artifactId>
+      <version>1.00.00-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
 </project>
